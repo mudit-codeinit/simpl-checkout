@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=640, user-scalable=0">
-  <title>Virginia Farms CBD</title>
+  <title>Virginia Farms CBD Oil</title>
 
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">

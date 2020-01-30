@@ -16,7 +16,7 @@ foreach($product_prices as $k=>$v){
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>Thank You</title>
+<title>Virginia Farms CBD Oil</title>
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width,user-scalable=no"/>

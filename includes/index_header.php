@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8"/>
-<title>Virginia Farms CBD</title>
+<title>Virginia Farms CBD Oil</title>
 <meta name="description" content="Virginia Farms CBD" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />

@@ -36,14 +36,14 @@
                     <input type="text" name="email" value="" placeholder="Email Address"  >
                 </div>
                 <div class="frmFlds">
-                    <input type="text" name="phone" value="" placeholder="Phone" >
+                    <input type="text" name="phone" value="" placeholder="Phone" maxlength="10">
                 </div>
 
                 <div class="frmFlds">
                     <input type="text" name="shippingAddress1" value="" placeholder="Address" >
                 </div>
                 <div class="frmFlds">
-                    <input type="tel" name="shippingZip" value="" placeholder="ZipCode" >
+                    <input type="tel" name="shippingZip" value="" placeholder="ZipCode" maxlength="6">
                 </div>
                 <div class="frmFlds">
                     <input type="text" name="shippingCity" value="" placeholder="City" >

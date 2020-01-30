@@ -5,7 +5,7 @@
 
 
 
-<title>Balance Pure CBD</title>
+<title>Virginia Farms CBD Oil</title>
 
 
 

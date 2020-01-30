@@ -1,5 +1,5 @@
 <html>
-<head></head><body><div class="content white-popup">
+<head></head><body><script></script><div class="content white-popup">
 <style type="text/css">
          body { margin:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height: 1.4;}
         body #outter{ overflow:auto; height:353px; -webkit-overflow-scrolling: touch;}

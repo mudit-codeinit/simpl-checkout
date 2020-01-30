@@ -88,8 +88,10 @@
 <script src="../assets/js/jquery.mask.min.js" type="text/javascript"></script>
 <script src="../assets/js/validator.js" type="text/javascript"></script>
 <script src="../assets/js/codebase.js" type="text/javascript"></script>
+<script src="../assets/js/upsell.js" type="text/javascript"></script>
+<!--script src="../assets/js/app.js" type="text/javascript"></script-->
+
 <script src="../assets/js/form_handler.js" type="text/javascript"></script>
-<script src="../assets/js/app.js" type="text/javascript"></script>
 <script src="../assets/js/outro.js" type="text/javascript"></script>
 <script type="text/javascript" src="../app/desktop/js/bookmarkscroll.js"></script>
 <script type="text/javascript" src="../app/desktop/js/jquery.placeholder.js"></script>
@@ -116,6 +118,8 @@
       }
   });
   }
+
+   
 </script>
 </body>
 </html>
