@@ -44,7 +44,7 @@ li {list-style: none;}
 }
 .error_handler_body {
     margin: 200px auto;
-    width: 35%;
+    width: 80%;
     padding: 20px;
     background-color: #fff;
     background-clip: padding-box;
@@ -146,7 +146,7 @@ start section1
 .s1-txt3{margin:-6px 0 0 175px;}
 .s1-txt4{
 	background: url(../images/s1-txt4-bg.png) center top no-repeat;
-    font-size: 31px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 40px;
     width: 456px;
@@ -298,7 +298,7 @@ ul.s1-list1 li:nth-child(4){background: url(../images/s1-icon4.png) left 7px no-
 	}
 .s3-bottle1{
     position: absolute;
-    top: 547px;
+    top: 489px;
     right: 226px;
 	}
 .s3-bg1{
@@ -349,7 +349,7 @@ ul.s1-list1 li:nth-child(4){background: url(../images/s1-icon4.png) left 7px no-
 .s3-txt5{
 	background: url(../images/s3-txt5-line.png) left bottom no-repeat;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 37px;
     text-align: left;
     color: #009b5b;
@@ -364,7 +364,7 @@ ul.s1-list1 li:nth-child(4){background: url(../images/s1-icon4.png) left 7px no-
 	 }
 .s3-txt6{
 	font-weight: 600;
-    font-size: 33px;
+    font-size: 27px;
     line-height: 30px;
     text-transform: uppercase;
     text-align: left;
@@ -688,7 +688,7 @@ ul.s5-list2 li{
 .s7-prt1{
 	background:#fff;
 	width:440px;
-	height:305px;
+	height:225px;
 	border-radius:30px;
 	display:block;
 	margin:40px auto 0 auto;
@@ -755,7 +755,7 @@ ul.s5-list2 li{
 /*----------------sec9---------------------*/
 #section-nine{
 	background:url(../images/sec9.jpg) center top no-repeat;
-	height:752px;
+	height:752px;padding-bottom: 10px;
 	}
 .s9-logo{
 	position: absolute;
@@ -1281,8 +1281,22 @@ input[type=checkbox] {
 #preauth_form11 .frmFlds input[type=tel]{    height: 90px; color:#000;    background: #ffffff;border: 1px solid #a8a8a8;font-size: 32px;}
 .frmFlds .cvv-input{ width:30%; float:left; margin-right:2%;   height: 90px;border: 1px solid #a8a8a8;font-size: 32px;}
 #billingDiv{width: 84%;margin: 0px auto 20px;background: #f0f0f0;padding: 20px;}
-#billingDiv label{float:left;}
-.sameas{text-align:left;}
-.sameas span{font-size:16px; font-weight:800;    width: 100%;float: left;}
-#billingDiv input[type=text], #billingDiv input[type=search], #billingDiv input[type=number], #billingDiv input[type=password], #billingDiv input[type=tel], #billingDiv input[type=email], #billingDiv select, #billingDiv textarea{    height: 60px;
-    line-height: 50px;}
+#billingDiv label{    float: left;font-size: 20px;margin-top: 10px;}
+.sameas{text-align:left;font-size: 20px;}
+.sameas span{font-size:18px; font-weight:800;    width: 100%;float: left;}
+#billingDiv input[type=text], #billingDiv input[type=search], #billingDiv input[type=number], #billingDiv input[type=password], #billingDiv input[type=tel], #billingDiv input[type=email], #billingDiv select, #billingDiv textarea{font-size: 32px;height: 90px;line-height: 80;}
+.frm-bg2 input[type=text], .frm-bg2 input[type=search], .frm-bg2 input[type=number], .frm-bg2 input[type=password], .frm-bg2 input[type=tel], .frm-bg2 input[type=email], .frm-bg2 select, .frm-bg2 textarea{font-size: 32px;  height: 90px;}
+.sameas input[type="radio"]{width: 21px;
+height: 20px;}
+input.trial-btn.pulse:hover{background: url(../images/order-btn.png);
+    height: 115px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    float: left;
+    border: none;
+    margin: 0px auto;
+    background-position: center;
+	    animation-duration: 0.0s;
+    -webkit-animation-duration: 0.0s;
+}

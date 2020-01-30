@@ -1,8 +1,8 @@
 <?php
 
 include('../core/config.php');
-//session_start();
-
+ //session_start();
+if(isset($_SESSION) && !empty($_SESSION)){
 $products = array($_SESSION['product1_id'],$_SESSION['product2_id'],$_SESSION['upsell1_product_id'],$_SESSION['upsell2_product_id']);
 $total = 0;
 foreach($product_prices as $k=>$v){
@@ -10,7 +10,7 @@ foreach($product_prices as $k=>$v){
 		$total += $v;
 	}
 }
-
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +23,7 @@ foreach($product_prices as $k=>$v){
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="../assets/css/app5e1f.css?v=2" />
 <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 <style>
 	 .commentBoxOutter{background:#f2f2f2;border-bottom:1px solid #999;}
@@ -76,7 +77,7 @@ foreach($product_prices as $k=>$v){
              Your Order is Confirmed
           </h1>
           <br><br>
-          Your Confirmation Number: <strong><?php isset( $_SESSION['order-data']['message']['orderId']) ?  $_SESSION['order-data']['message']['orderId'] : "" ?></strong><br>
+          Your Confirmation Number: <strong><?php echo isset( $_SESSION['order-data']['message']['orderId']) ?  $_SESSION['order-data']['message']['orderId'] : "0" ?></strong><br>
           <br>
           <b>We are happy you have chosen to achieve your weight loss goals with one of the most effective and hottest products on the market. </b>
           <br><br>
