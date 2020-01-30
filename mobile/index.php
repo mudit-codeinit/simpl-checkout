@@ -296,7 +296,7 @@
     <div style="clear:both;"></div>
     <footer>
        <div id="cta">
-          <a href="shipping.php">
+          <a href="shipping.php?<?php echo (isset($_SERVER["QUERY_STRING"]) ?  $_SERVER["QUERY_STRING"]:'');?>">
             <img src="assets/images/order-btn.png" class="btn pulse" width="501" height="101">
          </a>
         </div>

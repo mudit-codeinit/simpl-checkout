@@ -3,7 +3,7 @@
 include('core/config.php');
 //session_start();
 include_once('includes/common.php');
-include_once('includes/thank_you_header.php'); 
+include_once('includes/thank_you_header.php');
 
 
 //session_start();
@@ -25,7 +25,7 @@ foreach($product_prices as $k=>$v){
                <nav>
                   <ul class="nav nav-pills pull-right">
                      <li role="presentation">
-                        <h3><a href="tel:(844) 303-6368">Customer Service Support: <span style="font-weight:bold;color:#000;" class="active">US: (844) 303-6368 </span>
+                        <h3><a href="tel:(888) 654-9301">Customer Service Support: <span style="font-weight:bold;color:#000;" class="active">US: (888) 654-9301 </span>
                            </a>
                         </h3>
                      </li>
@@ -63,7 +63,7 @@ foreach($product_prices as $k=>$v){
                   <br>
                   <b>We are happy you have chosen to achieve your weight loss goals with one of the most effective and hottest products on the market. </b>
                   <br><br>
-                  Your order is currently being processed and will be shipped within 1 business day.  You’ll receive a shipping confirmation email with a tracking number once your product ships.  If for some reason you don’t receive that email, contact our customer service team immediately so we may investigate the issue – US: (844) 303-6368 <br><br>
+                  Your order is currently being processed and will be shipped within 1 business day.  You’ll receive a shipping confirmation email with a tracking number once your product ships.  If for some reason you don’t receive that email, contact our customer service team immediately so we may investigate the issue – US: (888) 654-9301 <br><br>
                   <div class="newpic"><a href="#"><img src="app/desktop/images/productnew.png"></a></div>
                   <div style="    text-align: center;
                      width: 70%;
@@ -96,7 +96,7 @@ foreach($product_prices as $k=>$v){
                   <div class="col-sm-8">
                      <h4>We are 100% committed to your product satisfaction and weight loss goals</h4>
                      <br>
-                     Call us if you have any problems with your purchase – Customer Service Number: US: (844) 303-6368 . Customer Service hours can be reached 24/7!
+                     Call us if you have any problems with your purchase – Customer Service Number: US: (888) 654-9301 . Customer Service hours can be reached 24/7!
                   </div>
                </div>
                <div class="panel-body col-sm-12">

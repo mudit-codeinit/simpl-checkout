@@ -53,7 +53,7 @@
             <div class="clearall"></div>
 
             <div class="sameas">
-               <span style="display: block;text-align: center;margin-bottom:8px;font-size:18px;">Is your billing address the same as your shipping address?</span>
+               <span >Is your billing address the same as your shipping address?</span>
 
            <input type="radio" name="billingSameAsShipping" id="sameyes" value="yes" checked="checked" />
                Yes
@@ -61,7 +61,8 @@
                <input type="radio" name="billingSameAsShipping" id="sameno" value="no"/>
                No
            </div>
-           <div id="billingDiv" class="billing-address billing-info" style="margin-top:10px; display:none; float:left; width:100%;">
+           <div class="clearall"></div>
+           <div id="billingDiv" class="billing-address billing-info" style="display:none" >
                <div class="frmElemts">
                <label for="">First Name:</label>
                <input type="text" name="billingFirstName" placeholder="Shipping First Name" data-error-message="Please enter your shipping first name!" />

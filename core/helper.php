@@ -90,7 +90,7 @@
 	   function checkDevice() {
     // checkDevice() : checks if user device is phone, tablet, or desktop
     // RETURNS 0 for desktop, 1 for mobile, 2 for tablets
-return 0;
+ 
       if (is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile"))) {
         return is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "tablet")) ? 2 : 1 ;
       } else {

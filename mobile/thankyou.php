@@ -45,7 +45,7 @@ foreach($product_prices as $k=>$v){
        <nav>
           <ul class="nav nav-pills pull-right">
              <li role="presentation">
-                <h3><a href="tel:(844) 303-6368">Customer Service Support: <span style="font-weight:bold;color:#000;" class="active">US: (844) 303-6368 </span>
+                <h3><a href="tel:(888) 654-9301">Customer Service Support: <span style="font-weight:bold;color:#000;" class="active">US: (888) 654-9301 </span>
                    </a>
                 </h3>
              </li>
@@ -80,7 +80,7 @@ foreach($product_prices as $k=>$v){
           <br>
           <b>We are happy you have chosen to achieve your weight loss goals with one of the most effective and hottest products on the market. </b>
           <br><br>
-          Your order is currently being processed and will be shipped within 1 business day.  You’ll receive a shipping confirmation email with a tracking number once your product ships.  If for some reason you don’t receive that email, contact our customer service team immediately so we may investigate the issue – US: (844) 303-6368 <br><br>
+          Your order is currently being processed and will be shipped within 1 business day.  You’ll receive a shipping confirmation email with a tracking number once your product ships.  If for some reason you don’t receive that email, contact our customer service team immediately so we may investigate the issue – US: (888) 654-9301 <br><br>
           <div class="newpic"><a href="#"><img src="assets/images/productnew.png"></a></div>
           <!-- <div style="    text-align: center;
              width: 70%;
