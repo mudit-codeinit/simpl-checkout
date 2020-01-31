@@ -197,7 +197,7 @@ include_once('includes/checkout_header.php'); ?>
                                 </div>
                         <div class="frmElemts">
                                 <label>CVV</label>
-                                <input type="text" placeholder="CVV" name="CVV" class="required short short2" data-validate="cvv" minlength="3" maxlength="3" data-error-message="Please enter a valid CVV code!" onkeypress="return isNumberKey(event)"/>
+                                <input type="text" onkeypress="return isNumberKey(event)"   maxlength="4" placeholder="CVV" name="CVV" class="required short short2" data-validate="cvv" minlength="3" maxlength="3" data-error-message="Please enter a valid CVV code!" onkeypress="return isNumberKey(event)"/>
                                 <a style="font-size: 12px; text-decoration: none; position: relative; top: 5px; margin-left: 10px;" href="javascript:void(0);" class="cvvTip" onClick="javascript:openNewWindow('app/desktop/images/cvv2-location.png','modal');"> Whats This?</a>
                            </div>
                             <div class="frmElemts expedited_process_chkbox">

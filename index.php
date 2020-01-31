@@ -50,7 +50,7 @@ include_once('includes/index_header.php'); ?>
                         </div>
                   </div>
                   <div class="form-position-div">
-                    <form method="post" action="https://www.balancepurecbd.com/special-offer/v2/ajax.php?method=new_prospect" name="prospect_form11" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
+                    <form method="post" action="" name="prospect_form11" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
                       <input type="hidden" name="limelight_charset" id="limelight_charset" value="utf-8" />
                           <div class="frmElemts">
                               <label for='fields_fname'>First Name</label>
@@ -111,11 +111,11 @@ include_once('includes/index_header.php'); ?>
   </div>
 
 
-  <div>
+  <!-- <div>
       <div class="container">
 <img src="app/desktop/images/500-mg-desc.jpg"/><br><br>
       </div>
-  </div>
+  </div> -->
 
   <!---------------start-sec2----------------- -->
   <div id="section2">

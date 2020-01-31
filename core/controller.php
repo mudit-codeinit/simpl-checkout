@@ -89,11 +89,11 @@
 		        );
 	        }
 	        $_SESSION['product1_id'] = $product_id;
-	        if( $expedited_product_id){
+	       if(isset($_SESSION['post-data']['expedited_process_chkbox'])){
 	        		$_SESSION['product2_id'] = $expedited_product_id;
 	    	}
 	        // print_r($params) die;
-		
+
 		 if($_SESSION['post-data']['billingSameAsShipping'] =='no'){
                          $params['billShipSame'] = 0;
                          $params['shipFirstName'] = $_SESSION['post-data']['billingFirstName'];
@@ -191,7 +191,7 @@
 	        break;
 	    case "import_upsell2":
 	        $order_type = isset($_SESSION["order_type"]) ? $_SESSION["order_type"] : '';
-				 
+
 	        if($order_type == 'Prepaid'){
 	            $upsell2_product_id = $prepaid2_mc_upsell_product_id;
 	        }

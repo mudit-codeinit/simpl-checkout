@@ -172,7 +172,7 @@ include_once('includes/checkout_header.php'); ?>
 													</select>
 													</p>
 												</form>
-                         <form method="post" class="form2" action="https://www.balancepurecbd.com/special-offer/v2/ajax.php?method=new_order_prospect" name="checkout_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
+                         <form method="post" class="form2" action="" name="checkout_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
                          <input type="hidden" name="limelight_charset" id="limelight_charset" value="utf-8" />
                         <!--  <input type="hidden" name="prospectId" value="[[prospect_id]]" /> -->
                          <input type="hidden" name="dynamic_inputs" value="product_3" id="change">

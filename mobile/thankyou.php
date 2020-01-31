@@ -23,7 +23,7 @@ foreach($product_prices as $k=>$v){
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="../assets/css/app5e1f.css?v=2" />
 <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/thankyou-footer.css" rel="stylesheet" type="text/css">
 
 <style>
 	 .commentBoxOutter{background:#f2f2f2;border-bottom:1px solid #999;}

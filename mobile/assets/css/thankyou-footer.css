@@ -1,0 +1,22 @@
+.legal {
+    margin-top: -4px;
+    color: white;
+    text-align: center;
+    padding: 0 0px 0 0;
+    height: 275px;
+}
+.legal p.ftrtxt2{font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #010101;
+    text-transform: none;
+    text-align: center;
+    margin: 0 auto;
+	  padding: 31px 0px 0 0px;
+    line-height: 20px;
+}
+
+.legal .ftrtxt2 a, .legal .ftrtxt2 a:hover {
+    text-decoration: none;
+    color: #010101 !important;
+	   font-size: 8px; font-weight:800;
+}

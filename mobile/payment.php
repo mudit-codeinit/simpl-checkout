@@ -139,7 +139,7 @@
             <p class="clearall"></p>
             <div class="frmFlds"  style="margin-top:0;">
                 <label>CVV</label>
-                <input type="text" class="cvv-input" name="CVV" style=" width:30%; float:left; margin-right:2%;" placeholder="CVV">
+                <input type="text" onkeypress="return isNumberKey(event)"   maxlength="4" class="cvv-input" name="CVV" style=" width:30%; float:left; margin-right:2%;" placeholder="CVV">
                 <img  class="cvvimg" src="assets/images/cvv.png" width="385" height="60" alt="">
             </div>
             <p class="clearall"></p>

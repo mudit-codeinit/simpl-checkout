@@ -47,6 +47,7 @@
 
 }
 $(document).on("click","#app_common_modal_close",function(){
-		$('#app_common_modal').hide();
+	event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+            $('#app_common_modal').remove();
 	});
 	
